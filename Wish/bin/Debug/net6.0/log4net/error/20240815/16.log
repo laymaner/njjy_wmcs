@@ -1,0 +1,6 @@
+
+ {     "system": "Meowv.Blog",     "datetime": "2024-08-15 16:23:40,996",     "description": "System.ArgumentException: An item with the same key has already been added. Key: database
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at WalkingTec.Mvvm.Core.Support.FileHandlers.WtmFileProvider.Init(Configs config, GlobalData gd)
+   at WalkingTec.Mvvm.Core.IServiceExtension.AddWtmContextForConsole(IServiceCollection services, String jsonFileDir, String jsonFileName, Func`2 fileSubDirSelector)
+   at Wish.Service.DCService.InitDC() in D:\layman\project\njlm_-wmcs\Wish\Services\DCService.cs:line 52",   "level": "ERROR",     "info": "" }

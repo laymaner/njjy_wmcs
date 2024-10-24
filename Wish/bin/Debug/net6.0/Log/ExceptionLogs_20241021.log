@@ -1,0 +1,270 @@
+﻿2024-10-21 15:44:53,629| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 15:44:53,629| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 15:44:53,630| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:44:53,629| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:45:48,646| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 15:45:48,656| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:45:48,663| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 15:45:48,700| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:46:49,303| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 15:46:49,303| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 15:46:49,304| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:46:49,305| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:49:27,106| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 15:49:27,106| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 15:49:27,107| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:49:27,108| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:50:46,432| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 15:50:46,432| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 15:50:46,434| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:50:46,433| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:55:36,652| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 15:55:36,652| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 15:55:36,654| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:55:36,655| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:56:20,802| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 15:56:20,814| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 15:56:20,814| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 15:56:20,817| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:17:54,651| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 16:17:54,651| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 16:17:54,663| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:17:54,664| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:22:25,318| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 16:22:25,318| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 16:22:25,318| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:22:25,318| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:23:28,333| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 16:23:28,343| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:23:28,351| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 16:23:28,353| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:24:15,863| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 16:24:15,864| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:24:15,864| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 16:24:15,868| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:25:00,070| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 16:25:00,070| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 16:25:00,071| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:25:00,073| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:25:44,201| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 16:25:44,201| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 16:25:44,202| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:25:44,205| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:26:30,000| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 16:26:30,001| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:26:30,000| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 16:26:30,002| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:27:14,166| ERROR 
+Exception--  Plc [SRM01_02,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+--------------------------------
+2024-10-21 16:27:14,166| ERROR 
+Exception--  Plc [SRM01_01,SRM01] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+--------------------------------
+2024-10-21 16:27:14,167| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------
+2024-10-21 16:27:14,166| ERROR 
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 291
+--------------------------------

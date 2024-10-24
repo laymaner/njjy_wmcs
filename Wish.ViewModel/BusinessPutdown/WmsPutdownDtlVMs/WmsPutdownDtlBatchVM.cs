@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
+using WalkingTec.Mvvm.Core;
+using WalkingTec.Mvvm.Core.Extensions;
+using Com.Wish.Model.Business;
+
+
+namespace Wish.ViewModel.BusinessPutdown.WmsPutdownDtlVMs
+{
+    public partial class WmsPutdownDtlBatchVM : BaseBatchVM<WmsPutdownDtl, WmsPutdownDtl_BatchEdit>
+    {
+        public WmsPutdownDtlBatchVM()
+        {
+            ListVM = new WmsPutdownDtlListVM();
+            LinkedVM = new WmsPutdownDtl_BatchEdit();
+        }
+
+    }
+
+	/// <summary>
+    /// Class to define batch edit fields
+    /// </summary>
+    public class WmsPutdownDtl_BatchEdit : BaseVM
+    {
+
+        protected override void InitVM()
+        {
+        }
+
+    }
+
+}

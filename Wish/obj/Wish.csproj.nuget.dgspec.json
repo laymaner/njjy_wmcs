@@ -1,0 +1,637 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\layman\\project\\njlm_-wmcs\\Wish\\Wish.csproj": {}
+  },
+  "projects": {
+    "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj",
+        "projectName": "ASRS.WCS.Common",
+        "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj",
+        "packagesPath": "C:\\Users\\W\\.nuget\\packages\\",
+        "outputPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\layman\\VS2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\W\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj",
+        "projectName": "ASRS.WCS.PLC",
+        "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj",
+        "packagesPath": "C:\\Users\\W\\.nuget\\packages\\",
+        "outputPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\layman\\VS2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\W\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HslCommunication": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\layman\\project\\njlm_-wmcs\\Wish.DataAccess\\Wish.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\layman\\project\\njlm_-wmcs\\Wish.DataAccess\\Wish.DataAccess.csproj",
+        "projectName": "Wish.DataAccess",
+        "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.DataAccess\\Wish.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\W\\.nuget\\packages\\",
+        "outputPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\layman\\VS2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\W\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj",
+        "projectName": "Wish.Model",
+        "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj",
+        "packagesPath": "C:\\Users\\W\\.nuget\\packages\\",
+        "outputPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\layman\\VS2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\W\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "WalkingTec.Mvvm.Core": {
+              "target": "Package",
+              "version": "[6.5.9, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[6.100.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\Wish.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\Wish.ViewModel.csproj",
+        "projectName": "Wish.ViewModel",
+        "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\Wish.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\W\\.nuget\\packages\\",
+        "outputPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\layman\\VS2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\W\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj"
+              },
+              "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj"
+              },
+              "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj"
+              },
+              "D:\\layman\\project\\njlm_-wmcs\\WISH.WCS.Device\\WISH.WCS.Device.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\WISH.WCS.Device\\WISH.WCS.Device.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
+            "Fleck": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\layman\\project\\njlm_-wmcs\\WISH.WCS.Device\\WISH.WCS.Device.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\layman\\project\\njlm_-wmcs\\WISH.WCS.Device\\WISH.WCS.Device.csproj",
+        "projectName": "WISH.WCS.Device",
+        "projectPath": "D:\\layman\\project\\njlm_-wmcs\\WISH.WCS.Device\\WISH.WCS.Device.csproj",
+        "packagesPath": "C:\\Users\\W\\.nuget\\packages\\",
+        "outputPath": "D:\\layman\\project\\njlm_-wmcs\\WISH.WCS.Device\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\layman\\VS2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\W\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\layman\\project\\njlm_-wmcs\\Wish\\Wish.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\layman\\project\\njlm_-wmcs\\Wish\\Wish.csproj",
+        "projectName": "Wish",
+        "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish\\Wish.csproj",
+        "packagesPath": "C:\\Users\\W\\.nuget\\packages\\",
+        "outputPath": "D:\\layman\\project\\njlm_-wmcs\\Wish\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\layman\\VS2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\W\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Common\\ASRS.WCS.Common.csproj"
+              },
+              "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\ASRS.WCS.Plc\\ASRS.WCS.PLC.csproj"
+              },
+              "D:\\layman\\project\\njlm_-wmcs\\Wish.DataAccess\\Wish.DataAccess.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.DataAccess\\Wish.DataAccess.csproj"
+              },
+              "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.Model\\Wish.Model.csproj"
+              },
+              "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\Wish.ViewModel.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\Wish.ViewModel.csproj"
+              },
+              "D:\\layman\\project\\njlm_-wmcs\\WISH.WCS.Device\\WISH.WCS.Device.csproj": {
+                "projectPath": "D:\\layman\\project\\njlm_-wmcs\\WISH.WCS.Device\\WISH.WCS.Device.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Elsa.Designer.Components.Web": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Fleck": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "HslCommunication": {
+              "target": "Package",
+              "version": "[10.6.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "WalkingTec.Mvvm.Mvc": {
+              "target": "Package",
+              "version": "[6.5.9, )"
+            },
+            "WalkingTec.Mvvm.TagHelpers.LayUI": {
+              "target": "Package",
+              "version": "[6.5.9, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
+            },
+            "ZXing.Net.Bindings.ZKWeb.System.Drawing": {
+              "target": "Package",
+              "version": "[0.16.7, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

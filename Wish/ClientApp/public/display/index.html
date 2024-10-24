@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="./map/lib/layui/layui.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css"
+    /> -->
+    <link rel="stylesheet" href="./map/main.css" />
+    <link rel="stylesheet" href="./map/lib/layui/layer.css" />
+    <link rel="stylesheet" href="./map/extend/extend.css" />
+    <script type="text/javascript" src="./map/lib/layui/jquery.min.js"></script>
+    <!-- <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> -->
+    <script src="./map/lib/panzoom.min.js"></script>
+    <script src="./map/lib/lodash.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./map/lib/layui/jquery.transit.js"
+    ></script>
+    <script type="text/javascript" src="./map/lib/layui/layer.js"></script>
+
+    <script type="text/javascript" src="./map/lib/ws/signalr.min.js"></script>
+    <!-- <script type="text/javascript" src="./map/js/web_socket.js"></script> -->
+    <!-- <script type="text/javascript" src="./map/js/config.js"></script> -->
+    <script type="text/javascript" src="./map/js/stacker.js"></script>
+    <script type="text/javascript" src="./map/js/convey.js"></script>
+    <script type="text/javascript" src="./map/js/coder.js"></script>
+    <script type="text/javascript" src="./map/js/hoist.js"></script>
+    <script type="text/javascript" src="./map/js/discharge.js"></script>
+    <script type="text/javascript" src="./map/js/rgv.js"></script>
+    <!-- <script type="text/javascript" src="./map/js/scene.js"></script> -->
+    <script type="text/javascript" src="./map/js/common.js"></script>
+    <script type="text/javascript" src="./map/extend/extend-main.js"></script>
+    <script
+      type="text/javascript"
+      src="./map/extend/extend-convert.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./map/extend/extend-service.js"
+    ></script>
+    <script type="text/javascript" src="./map/extend/extend-api.js"></script>
+    <script type="text/javascript" src="./map/extend/extend-draw.js"></script>
+    <title>WCS监控</title>
+  </head>
+
+  <body style="position: relative">
+    <fieldset
+      class="layui-elem-field layui-field-title"
+      id="f1"
+      style="position: absolute; width: 100%; z-index: 9999"
+    >
+      <legend class="stage_header" id="floorTitle">
+        <label for="">设备监控系统</label> -- 楼层<span>1</span>
+      </legend>
+    </fieldset>
+
+    <div class="all" id="floorBtnList">
+      <!-- <div class="box">
+        <div class="card bg-01">
+          <a href=""> <span class="card-content">楼层一</span></a>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="opera-btn">
+      <div class="box">
+        <!-- <div
+          class="bg-04 biao-btn active"
+          id="legendChangeBtn"
+          style="margin-bottom: 10px"
+        >
+          <span class="card-content btns">图例</span>
+        </div> -->
+        <div class="bg-05 biao-btn active" id="statusChangeBtn">
+          <span class="card-content btns">标注</span>
+        </div>
+        <!-- <div class="bg-04 biao-btn">
+          <span class="card-content btns active" id="refreshBtn">刷新</span>
+        </div> -->
+      </div>
+    </div>
+    <div class="legend-list" id="legend-list">
+      <h2>
+        <span>图例</span>
+        <span id="legendChangeBtn">
+          <svg
+            t="1675240084149"
+            class="icon"
+            viewBox="0 0 1024 1024"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            p-id="2849"
+            width="32"
+            height="32"
+          >
+            <path
+              d="M65.582671 288.791335l446.417329 446.41733 446.417329-446.41733z"
+              p-id="2850"
+            ></path>
+          </svg>
+        </span>
+      </h2>
+      <ul id="legend-list-body">
+        <li>
+          <img src="map/images/ulink.png" alt="" /><span>设备未连接</span>
+        </li>
+        <li><img src="map/images/link.png" alt="" /><span>设备已连接</span></li>
+        <li>
+          <img
+            style="width: 25px"
+            src="map/images/icon_alert.png"
+            alt=""
+          /><span>设备异常</span>
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/stacker_1.png" alt="" /><span
+            >堆垛机</span
+          >
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/tray_2.png" alt="" /><span
+            >托盘</span
+          >
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/convey_2.png" alt="" /><span
+            >输送线</span
+          >
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/rgv_1.png" alt="" /><span
+            >RGV小车</span
+          >
+        </li>
+
+        <li>
+          <img style="width: 25px" src="map/images/cangwei.png" alt="" /><span
+            >货位</span
+          >
+        </li>
+        <li>
+          <img
+            style="width: 25px"
+            src="map/images/rgv_track_1.png"
+            alt=""
+          /><span>RGV轨道</span>
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/coder.png" alt="" /><span
+            >叠盘机</span
+          >
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/box_water.png" alt="" /><span
+            >水箱</span
+          >
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/hoist.png" alt="" /><span
+            >提升机</span
+          >
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/discharge.png" alt="" /><span
+            >拆盘机</span
+          >
+        </li>
+        <li>
+          <img style="width: 25px" src="map/images/bcr_1.png" alt="" /><span
+            >扫码器</span
+          >
+        </li>
+      </ul>
+    </div>
+    <div id="panzoom">
+      <div
+        id="zd_map"
+        style="position: relative; height: 100vh; background-color: aliceblue"
+      ></div>
+    </div>
+    <script>
+      var mapAllData = {};
+      var currentFloor = 1;
+      var currrentMapData = "";
+      var tips = [1, "rgba(0,0,0,0.7)"];
+      $(function () {
+        //锚点跳转滑动效果
+        $(".card a").click(function () {
+          $("html, body").animate(
+            { scrollTop: $($(this).attr("href")).offset().top - 20 + "px" },
+            1000
+          );
+          return false;
+        });
+        const element = document.getElementById("panzoom");
+        const panzoom = Panzoom(element, {});
+        panzoom.zoom(0.8);
+
+        const element2 = document.getElementById("legend-list");
+        Panzoom(element2, {});
+
+        const parent = element.parentElement;
+        parent.addEventListener("wheel", panzoom.zoomWithWheel);
+      });
+
+      $.getJSON("./map/data/mapdata.json", function (res) {
+        for (const key in res) {
+          Object.assign(mapAllData, { [key]: generateCode(res[key]) });
+        }
+        var [G1] = mapAllData[currentFloor].filter((e) => e.code === "G101");
+        var layerTitle = G1.layerTitle || "设备监控系统";
+        currrentMapData = mapAllData[currentFloor];
+        mapDataToScene(currrentMapData);
+        addFloorBtnList(mapAllData);
+        $("#floorBtnList .change-floor-btn").click(function () {
+          currentFloor = $(this).attr("data-floor");
+          $("#zd_map").empty();
+          $("#floorTitle span").text(currentFloor);
+          $("#floorTitle label").text(layerTitle);
+          mapDataToScene(mapAllData[currentFloor]);
+        });
+      });
+
+      $("#statusChangeBtn").on("click", function () {
+        if ($(this).hasClass("active")) {
+          $(".dev-code").css("display", "none");
+          $(this).removeClass("active").css("background", "#afafaf");
+        } else {
+          $(".dev-code").css("display", "block");
+          $(this).addClass("active").css("background", "#e28663");
+        }
+      });
+
+      $("#legendChangeBtn").on("click", function () {
+        if ($(this).hasClass("active")) {
+          $("#legend-list-body").css("display", "none");
+          $(this).removeClass("active");
+        } else {
+          $("#legend-list-body").css("display", "grid");
+          $(this).addClass("active");
+        }
+      });
+
+      $("#AreaChangeBtn").on("click", function () {
+        if ($(this).hasClass("active")) {
+          $(".area-text-box").css("display", "none");
+          $(this).removeClass("active");
+        } else {
+          $(".area-text-box").css("display", "block");
+          $(this).addClass("active");
+        }
+      });
+
+      // 开启刷新
+
+      
+      startUpdate();
+
+      // $("#refreshBtn").click(() => startUpdate());
+    </script>
+  </body>
+</html>

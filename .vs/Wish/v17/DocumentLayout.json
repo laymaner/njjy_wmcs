@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\layman\\project\\njlm_-wmcs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|d:\\layman\\project\\njlm_-wmcs\\wish\\p260_socket1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|solutionrelative:wish\\p260_socket1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|D:\\layman\\project\\njlm_-wmcs\\wish\\areas\\wcscmd\\controllers\\srmcmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|solutionrelative:wish\\areas\\wcscmd\\controllers\\srmcmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|D:\\layman\\project\\njlm_-wmcs\\wish\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|solutionrelative:wish\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|D:\\layman\\project\\njlm_-wmcs\\wish\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|solutionrelative:wish\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|D:\\layman\\project\\njlm_-wmcs\\wish\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D143F3C-3C8B-4FB7-A739-1918828F0C46}|Wish\\Wish.csproj|solutionrelative:wish\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB4A41D-7770-4803-90FF-255C414B2EE9}|Wish.ViewModel\\Wish.ViewModel.csproj|D:\\layman\\project\\njlm_-wmcs\\wish.viewmodel\\wcscmd\\srmcmdvms\\srmcmdcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB4A41D-7770-4803-90FF-255C414B2EE9}|Wish.ViewModel\\Wish.ViewModel.csproj|solutionrelative:wish.viewmodel\\wcscmd\\srmcmdvms\\srmcmdcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB4A41D-7770-4803-90FF-255C414B2EE9}|Wish.ViewModel\\Wish.ViewModel.csproj|D:\\layman\\project\\njlm_-wmcs\\wish.viewmodel\\businesstask\\wmstaskvms\\wmstaskcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB4A41D-7770-4803-90FF-255C414B2EE9}|Wish.ViewModel\\Wish.ViewModel.csproj|solutionrelative:wish.viewmodel\\businesstask\\wmstaskvms\\wmstaskcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB4A41D-7770-4803-90FF-255C414B2EE9}|Wish.ViewModel\\Wish.ViewModel.csproj|D:\\layman\\project\\njlm_-wmcs\\wish.viewmodel\\common\\dictionary\\dictonaryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB4A41D-7770-4803-90FF-255C414B2EE9}|Wish.ViewModel\\Wish.ViewModel.csproj|solutionrelative:wish.viewmodel\\common\\dictionary\\dictonaryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB4A41D-7770-4803-90FF-255C414B2EE9}|Wish.ViewModel\\Wish.ViewModel.csproj|D:\\layman\\project\\njlm_-wmcs\\wish.viewmodel\\baswhouse\\baswbinvms\\baswbincore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB4A41D-7770-4803-90FF-255C414B2EE9}|Wish.ViewModel\\Wish.ViewModel.csproj|solutionrelative:wish.viewmodel\\baswhouse\\baswbinvms\\baswbincore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SrmCmdController.cs",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish\\Areas\\WcsCmd\\Controllers\\SrmCmdController.cs",
+              "RelativeDocumentMoniker": "Wish\\Areas\\WcsCmd\\Controllers\\SrmCmdController.cs",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish\\Areas\\WcsCmd\\Controllers\\SrmCmdController.cs",
+              "RelativeToolTip": "Wish\\Areas\\WcsCmd\\Controllers\\SrmCmdController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T08:25:12.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P260_Socket1.cs",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish\\P260_Socket1.cs",
+              "RelativeDocumentMoniker": "Wish\\P260_Socket1.cs",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish\\P260_Socket1.cs",
+              "RelativeToolTip": "Wish\\P260_Socket1.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T08:01:04.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish\\appsettings.json",
+              "RelativeDocumentMoniker": "Wish\\appsettings.json",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish\\appsettings.json",
+              "RelativeToolTip": "Wish\\appsettings.json",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAABgAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T07:43:04.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SrmCmdCore.cs",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\WcsCmd\\SrmCmdVMs\\SrmCmdCore.cs",
+              "RelativeDocumentMoniker": "Wish.ViewModel\\WcsCmd\\SrmCmdVMs\\SrmCmdCore.cs",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\WcsCmd\\SrmCmdVMs\\SrmCmdCore.cs",
+              "RelativeToolTip": "Wish.ViewModel\\WcsCmd\\SrmCmdVMs\\SrmCmdCore.cs",
+              "ViewState": "AQIAACMCAAAAAAAAAABUwCgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:23:07.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish\\Program.cs",
+              "RelativeDocumentMoniker": "Wish\\Program.cs",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish\\Program.cs",
+              "RelativeToolTip": "Wish\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwDEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:36:41.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish\\Startup.cs",
+              "RelativeDocumentMoniker": "Wish\\Startup.cs",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish\\Startup.cs",
+              "RelativeToolTip": "Wish\\Startup.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAAEEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:36:08.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DictonaryHelper.cs",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\Common\\Dictionary\\DictonaryHelper.cs",
+              "RelativeDocumentMoniker": "Wish.ViewModel\\Common\\Dictionary\\DictonaryHelper.cs",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\Common\\Dictionary\\DictonaryHelper.cs",
+              "RelativeToolTip": "Wish.ViewModel\\Common\\Dictionary\\DictonaryHelper.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAABIwDMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T04:02:00.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WmsTaskCore.cs",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\BusinessTask\\WmsTaskVMs\\WmsTaskCore.cs",
+              "RelativeDocumentMoniker": "Wish.ViewModel\\BusinessTask\\WmsTaskVMs\\WmsTaskCore.cs",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\BusinessTask\\WmsTaskVMs\\WmsTaskCore.cs",
+              "RelativeToolTip": "Wish.ViewModel\\BusinessTask\\WmsTaskVMs\\WmsTaskCore.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAABQwIgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:24:25.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BasWBinCore.cs",
+              "DocumentMoniker": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\BasWhouse\\BasWBinVMs\\BasWBinCore.cs",
+              "RelativeDocumentMoniker": "Wish.ViewModel\\BasWhouse\\BasWBinVMs\\BasWBinCore.cs",
+              "ToolTip": "D:\\layman\\project\\njlm_-wmcs\\Wish.ViewModel\\BasWhouse\\BasWBinVMs\\BasWBinCore.cs",
+              "RelativeToolTip": "Wish.ViewModel\\BasWhouse\\BasWBinVMs\\BasWBinCore.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAABQwEkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:16:22.815Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

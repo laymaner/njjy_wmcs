@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <Nullable>disable</Nullable>  
+  
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>3.2</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+    <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
+</PropertyGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="Elsa.Designer.Components.Web" Version="2.14.1" />
+    <PackageReference Include="Fleck" Version="1.2.0" />
+    <PackageReference Include="HslCommunication" Version="10.6.1" />
+    <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" Version="8.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="WalkingTec.Mvvm.TagHelpers.LayUI" Version="6.5.9" />
+    <PackageReference Include="WalkingTec.Mvvm.Mvc" Version="6.5.9" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.9.0" />
+    <PackageReference Include="ZXing.Net" Version="0.16.9" />
+    <PackageReference Include="ZXing.Net.Bindings.ZKWeb.System.Drawing" Version="0.16.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ClientApp\dist\**" />
+    <Content Remove="$(SpaRoot)**" />
+    <Content Remove="ClientApp\dist\**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**;$(SpaRoot)dist\**;$(SpaRoot)dist\**;$(SpaRoot).awcache\**;$(SpaRoot).cache-loader\**" />
+    <EmbeddedResource Remove="ClientApp\dist\**" />
+    <None Remove="ClientApp\dist\**" />
+    <None Remove="ClientApp\package-lock.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+   <ProjectReference Include="..\ASRS.WCS.Common\ASRS.WCS.Common.csproj" />
+   <ProjectReference Include="..\ASRS.WCS.Plc\ASRS.WCS.PLC.csproj" />
+   <ProjectReference Include="..\Wish.Model\Wish.Model.csproj" />
+    <ProjectReference Include="..\Wish.DataAccess\Wish.DataAccess.csproj" />
+    <ProjectReference Include="..\Wish.ViewModel\Wish.ViewModel.csproj" />
+    <ProjectReference Include="..\WISH.WCS.Device\WISH.WCS.Device.csproj" />
+ </ItemGroup>
+</Project>
+
+

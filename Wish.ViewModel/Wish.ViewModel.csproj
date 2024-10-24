@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+ </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Dapper" Version="2.0.151" />
+    <PackageReference Include="Fleck" Version="1.2.0" />
+    <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASRS.WCS.Common\ASRS.WCS.Common.csproj" />
+    <ProjectReference Include="..\ASRS.WCS.Plc\ASRS.WCS.PLC.csproj" />
+    <ProjectReference Include="..\Wish.Model\Wish.Model.csproj" />
+    <ProjectReference Include="..\WISH.WCS.Device\WISH.WCS.Device.csproj" />
+  </ItemGroup>
+</Project>
+

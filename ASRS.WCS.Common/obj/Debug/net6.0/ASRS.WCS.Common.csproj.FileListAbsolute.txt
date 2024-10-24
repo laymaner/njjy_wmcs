@@ -1,0 +1,11 @@
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\bin\Debug\net6.0\ASRS.WCS.Common.deps.json
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\bin\Debug\net6.0\ASRS.WCS.Common.dll
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\bin\Debug\net6.0\ASRS.WCS.Common.pdb
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\obj\Debug\net6.0\ASRS.WCS.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\obj\Debug\net6.0\ASRS.WCS.Common.AssemblyInfoInputs.cache
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\obj\Debug\net6.0\ASRS.WCS.Common.AssemblyInfo.cs
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\obj\Debug\net6.0\ASRS.WCS.Common.csproj.CoreCompileInputs.cache
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\obj\Debug\net6.0\ASRS.WCS.Common.dll
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\obj\Debug\net6.0\refint\ASRS.WCS.Common.dll
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\obj\Debug\net6.0\ASRS.WCS.Common.pdb
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Common\obj\Debug\net6.0\ref\ASRS.WCS.Common.dll

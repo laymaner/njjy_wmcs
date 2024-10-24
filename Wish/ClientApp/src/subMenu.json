@@ -1,0 +1,918 @@
+﻿[
+  {
+    "ParentId": null,
+    "Id": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Text": "systemManagement",
+    "Url": null
+  },
+  {
+    "ParentId": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Id": "8b982671-cf11-4be8-b745-8903bd1df431",
+    "Text": "actionlog",
+    "Url": "/actionlog"
+  },
+  {
+    "ParentId": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Id": "dffcd504-1246-4a4f-9f96-4ff93403d64a",
+    "Text": "frameworkuser",
+    "Url": "/frameworkuser"
+  },
+  {
+    "ParentId": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Id": "84e4696f-2171-49ef-bd79-eea0b40e88a0",
+    "Text": "frameworkrole",
+    "Url": "/frameworkrole"
+  },
+  {
+    "ParentId": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Id": "5adde7b6-0a8c-4935-8161-23c7d0e6f30d",
+    "Text": "frameworkgroup",
+    "Url": "/frameworkgroup"
+  },
+  {
+    "ParentId": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Id": "a975f408-043e-41d6-bbb5-a403ed234acd",
+    "Text": "frameworkmenu",
+    "Url": "/frameworkmenu"
+  },
+  {
+    "ParentId": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Id": "77c21b96-f6aa-41b1-bace-ce94c1ce8b61",
+    "Text": "dataprivilege",
+    "Url": "/dataprivilege"
+  },
+  {
+    "ParentId": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Id": "2c7dc631-5b41-458b-91f9-7c3cd82bce0f",
+    "Text": "frameworktenant",
+    "Url": "/frameworktenant"
+  },
+  {
+    "ParentId": "301f84d3-5a77-4b30-92c4-9c723ed2935a",
+    "Id": "2c7dc631-5b41-458b-91f9-7c3cd82bce1f",
+    "Text": "workflow",
+    "Url": "/workflow"
+  }
+,{
+    "ParentId": null,
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "Text": "basbinfo",
+    "Url": null
+  },{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbcustomer",
+    "Url": "/basbcustomer"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbdepartment",
+    "Url": "/basbdepartment"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbmaterial",
+    "Url": "/basbmaterial"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbmaterialcategory",
+    "Url": "/basbmaterialcategory"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbmaterialtype",
+    "Url": "/basbmaterialtype"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbproprietor",
+    "Url": "/basbproprietor"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbsku",
+    "Url": "/basbsku"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbsupplier",
+    "Url": "/basbsupplier"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbsupplierbin",
+    "Url": "/basbsupplierbin"
+    }
+,{
+    "Id": "783048cc-bf95-4900-abef-0708396e02a5",
+    "ParentId": null,
+    "Text": "basbunit",
+    "Url": "/basbunit"
+    }
+,
+
+
+{
+    "Id": "0bc1839e-2801-4f7e-91e1-f674cf1b10e4",
+    "ParentId": null,
+    "Text": "dbconfig",
+    "Url": "/dbconfig"
+    }
+,{
+    "Id": "80de33ff-79ef-419a-be89-f6d387b66bc4",
+    "ParentId": null,
+    "Text": "plcconfig",
+    "Url": "/plcconfig"
+    }
+,{
+    "Id": "bcf92f11-f579-45b0-9eb0-6927b30a642a",
+    "ParentId": null,
+    "Text": "standarddevice",
+    "Url": "/standarddevice"
+    }
+,{
+    "Id": "74e88f4e-8dcb-48eb-886f-3de1950f4eed",
+    "ParentId": null,
+    "Text": "deviceconfig",
+    "Url": "/deviceconfig"
+    }
+,{
+    "Id": "8abb0370-efc8-43a2-8839-7b98fae5a445",
+    "ParentId": null,
+    "Text": "devicetasklog",
+    "Url": "/devicetasklog"
+    }
+,{
+    "Id": "bea73552-f068-4ffe-8369-a5a0e1758cda",
+    "ParentId": null,
+    "Text": "devicestatuslog",
+    "Url": "/devicestatuslog"
+    }
+,{
+    "Id": "7e580442-ff4a-4055-8e34-10d87c93af23",
+    "ParentId": null,
+    "Text": "devicealarmlog",
+    "Url": "/devicealarmlog"
+    }
+,{
+    "Id": "b889c79f-7ed4-404c-9471-e893ee5be10d",
+    "ParentId": null,
+    "Text": "srmcmd",
+    "Url": "/srmcmd"
+    }
+,{
+    "Id": "b81616ef-7690-449c-8f10-e001aa86a9ea",
+    "ParentId": null,
+    "Text": "srmcmdhis",
+    "Url": "/srmcmdhis"
+    }
+,{
+    "Id": "2c3d0932-feb5-4703-b33e-0499e44d00d8",
+    "ParentId": null,
+    "Text": "baswarea",
+    "Url": "/baswarea"
+    }
+,{
+    "Id": "186c5ae4-261b-47ac-95bf-cfb424b6570d",
+    "ParentId": null,
+    "Text": "baswbin",
+    "Url": "/baswbin"
+    }
+,{
+    "Id": "bf50dfae-11ad-4451-8b66-40cfb05f3798",
+    "ParentId": null,
+    "Text": "baswerpwhouse",
+    "Url": "/baswerpwhouse"
+    }
+,{
+    "Id": "11ea6a0a-78be-4fdc-9416-be3774a76977",
+    "ParentId": null,
+    "Text": "baswerpwhousebin",
+    "Url": "/baswerpwhousebin"
+    }
+,{
+    "Id": "12b34657-e7eb-41a0-985f-94dfe51cc35c",
+    "ParentId": null,
+    "Text": "baswloc",
+    "Url": "/baswloc"
+    }
+,{
+    "Id": "0d819525-3c91-42dc-9aa2-a1fd6c07a789",
+    "ParentId": null,
+    "Text": "baswlocgroup",
+    "Url": "/baswlocgroup"
+    }
+,{
+    "Id": "d6ae2656-d66a-40ca-8b18-4bc28e149cc3",
+    "ParentId": null,
+    "Text": "baswpallet",
+    "Url": "/baswpallet"
+    }
+,{
+    "Id": "04404eff-233a-45bb-abcf-3b56c091600c",
+    "ParentId": null,
+    "Text": "baswpallettype",
+    "Url": "/baswpallettype"
+    }
+,{
+    "Id": "b6a9a9f5-03bd-4f0e-8019-f73cd60afbd8",
+    "ParentId": null,
+    "Text": "baswrack",
+    "Url": "/baswrack"
+    }
+,{
+    "Id": "454937b1-e1d7-437b-a3ff-860f095f4913",
+    "ParentId": null,
+    "Text": "baswregion",
+    "Url": "/baswregion"
+    }
+,{
+    "Id": "28c5aa56-70c1-4970-bcc4-e45640beb6d8",
+    "ParentId": null,
+    "Text": "baswregiontype",
+    "Url": "/baswregiontype"
+    }
+,{
+    "Id": "91766f37-779d-4b21-9294-5770c8f1773e",
+    "ParentId": null,
+    "Text": "baswroadway",
+    "Url": "/baswroadway"
+    }
+,{
+    "Id": "a39fbfaf-d576-4e1e-a96f-d772841f92e2",
+    "ParentId": null,
+    "Text": "baswwhouse",
+    "Url": "/baswwhouse"
+    }
+,{
+    "Id": "b3e90a0e-15a0-4cd3-89e8-b8daac854cf0",
+    "ParentId": null,
+    "Text": "wmsitninventory",
+    "Url": "/wmsitninventory"
+    }
+,{
+    "Id": "a115a1df-c2d9-41c1-8aef-9482eef9b045",
+    "ParentId": null,
+    "Text": "wmsitninventorydtl",
+    "Url": "/wmsitninventorydtl"
+    }
+,{
+    "Id": "769151e3-ce2f-4688-a011-dd152602f582",
+    "ParentId": null,
+    "Text": "wmsitninventorydtlhis",
+    "Url": "/wmsitninventorydtlhis"
+    }
+,{
+    "Id": "614d35a7-ef3e-43c5-87e4-478e916533b8",
+    "ParentId": null,
+    "Text": "wmsitninventoryhis",
+    "Url": "/wmsitninventoryhis"
+    }
+,{
+    "Id": "503570db-547c-4616-a994-9ae6a21f8a0f",
+    "ParentId": null,
+    "Text": "wmsitninventoryrecord",
+    "Url": "/wmsitninventoryrecord"
+    }
+,{
+    "Id": "558a34af-82f8-483f-a321-ad9aebb371f5",
+    "ParentId": null,
+    "Text": "wmsitninventoryrecorddif",
+    "Url": "/wmsitninventoryrecorddif"
+    }
+,{
+    "Id": "2e3e6afc-b223-4775-b511-63aa6be31cda",
+    "ParentId": null,
+    "Text": "wmsitninventoryrecorddifhis",
+    "Url": "/wmsitninventoryrecorddifhis"
+    }
+,{
+    "Id": "efe334cc-b048-48e4-911e-5baf2b936128",
+    "ParentId": null,
+    "Text": "wmsitninventoryrecordhis",
+    "Url": "/wmsitninventoryrecordhis"
+    }
+,{
+    "Id": "173c6915-d77e-4908-87de-15244afc6b63",
+    "ParentId": null,
+    "Text": "wmsinorder",
+    "Url": "/wmsinorder"
+    }
+,{
+    "Id": "f17858b4-793c-4869-bd24-95a739226da0",
+    "ParentId": null,
+    "Text": "wmsinorderdtl",
+    "Url": "/wmsinorderdtl"
+    }
+,{
+    "Id": "b22495d7-fd7f-4b19-b9e7-bd68f46192a2",
+    "ParentId": null,
+    "Text": "wmsinorderdtlhis",
+    "Url": "/wmsinorderdtlhis"
+    }
+,{
+    "Id": "afe9cf21-53f0-4c12-85d5-ed73ff10a62c",
+    "ParentId": null,
+    "Text": "wmsinorderhis",
+    "Url": "/wmsinorderhis"
+    }
+,{
+    "Id": "363e5f3a-6846-4dc7-97b7-45250b04131d",
+    "ParentId": null,
+    "Text": "wmsinreceipt",
+    "Url": "/wmsinreceipt"
+    }
+,{
+    "Id": "03a347aa-2abd-44c7-80a7-585a23ad5549",
+    "ParentId": null,
+    "Text": "wmsinreceiptdtl",
+    "Url": "/wmsinreceiptdtl"
+    }
+,{
+    "Id": "cfbcc6b8-42c1-407d-8bea-7047b913ee65",
+    "ParentId": null,
+    "Text": "wmsinreceiptdtlhis",
+    "Url": "/wmsinreceiptdtlhis"
+    }
+,{
+    "Id": "ac5261ee-13e6-418e-897d-c7f069b64eeb",
+    "ParentId": null,
+    "Text": "wmsinreceipthis",
+    "Url": "/wmsinreceipthis"
+    }
+,{
+    "Id": "f6841aaf-1312-42a4-8775-79764b0adf77",
+    "ParentId": null,
+    "Text": "wmsinreceiptiqcrecord",
+    "Url": "/wmsinreceiptiqcrecord"
+    }
+,{
+    "Id": "9f2bc276-a420-40f7-a704-5370aaaef21a",
+    "ParentId": null,
+    "Text": "wmsinreceiptiqcrecordhis",
+    "Url": "/wmsinreceiptiqcrecordhis"
+    }
+,{
+    "Id": "c27088f8-b0ae-4ac2-8599-7fd5b32b3e7b",
+    "ParentId": null,
+    "Text": "wmsinreceiptiqcresult",
+    "Url": "/wmsinreceiptiqcresult"
+    }
+,{
+    "Id": "3410accd-b1d4-4c35-b1ee-a5ab1fd445f1",
+    "ParentId": null,
+    "Text": "wmsinreceiptiqcresulthis",
+    "Url": "/wmsinreceiptiqcresulthis"
+    }
+,{
+    "Id": "863fab09-c7a6-4b88-832d-1826edb377eb",
+    "ParentId": null,
+    "Text": "wmsinreceiptrecord",
+    "Url": "/wmsinreceiptrecord"
+    }
+,{
+    "Id": "b12d7b65-41fd-49d9-8a13-24a3e6dbeefb",
+    "ParentId": null,
+    "Text": "wmsinreceiptrecordhis",
+    "Url": "/wmsinreceiptrecordhis"
+    }
+,{
+    "Id": "0f794821-9f37-4e9e-84dd-1e02634d36f4",
+    "ParentId": null,
+    "Text": "wmsinreceiptuniicode",
+    "Url": "/wmsinreceiptuniicode"
+    }
+,{
+    "Id": "8b3f5278-c593-4cc1-8025-1d79976fc1a7",
+    "ParentId": null,
+    "Text": "wmsinreceiptuniicodehis",
+    "Url": "/wmsinreceiptuniicodehis"
+    }
+,{
+    "Id": "39029c99-2855-4cab-ade2-90294d7ec4d6",
+    "ParentId": null,
+    "Text": "wmsitnqc",
+    "Url": "/wmsitnqc"
+    }
+,{
+    "Id": "1a7f6a97-104b-44d8-bd00-617d1e6ae4f2",
+    "ParentId": null,
+    "Text": "wmsitnqcdtl",
+    "Url": "/wmsitnqcdtl"
+    }
+,{
+    "Id": "246d47bd-de61-463c-8685-754e2d5f0bfe",
+    "ParentId": null,
+    "Text": "wmsitnqcdtlhis",
+    "Url": "/wmsitnqcdtlhis"
+    }
+,{
+    "Id": "edf3cbcf-715d-4ac8-9a02-af920b538312",
+    "ParentId": null,
+    "Text": "wmsitnqchis",
+    "Url": "/wmsitnqchis"
+    }
+,{
+    "Id": "0df47b85-9e04-495b-9857-a48a339e6103",
+    "ParentId": null,
+    "Text": "wmsitnqcrecord",
+    "Url": "/wmsitnqcrecord"
+    }
+,{
+    "Id": "6214caa4-3796-4cfb-af2f-a6e36c54aeae",
+    "ParentId": null,
+    "Text": "wmsitnqcrecordhis",
+    "Url": "/wmsitnqcrecordhis"
+    }
+,{
+    "Id": "3660af83-10c7-4c2f-8c45-830d87744925",
+    "ParentId": null,
+    "Text": "wmsitnmove",
+    "Url": "/wmsitnmove"
+    }
+,{
+    "Id": "3d8d8101-fc7b-4a78-8bad-a25557703e76",
+    "ParentId": null,
+    "Text": "wmsitnmovedtl",
+    "Url": "/wmsitnmovedtl"
+    }
+,{
+    "Id": "53c4d95d-2ebc-4d74-880e-54bddfa6594a",
+    "ParentId": null,
+    "Text": "wmsitnmovedtlhis",
+    "Url": "/wmsitnmovedtlhis"
+    }
+,{
+    "Id": "82e3ad62-3d88-4309-88b6-7753dc36f3a3",
+    "ParentId": null,
+    "Text": "wmsitnmovehis",
+    "Url": "/wmsitnmovehis"
+    }
+,{
+    "Id": "f93fd461-9f06-4646-890f-848e5e603e1b",
+    "ParentId": null,
+    "Text": "wmsitnmoverecord",
+    "Url": "/wmsitnmoverecord"
+    }
+,{
+    "Id": "151e327c-1c98-40f4-b99f-5861512a22a4",
+    "ParentId": null,
+    "Text": "wmsitnmoverecordhis",
+    "Url": "/wmsitnmoverecordhis"
+    }
+,{
+    "Id": "2fd8d689-b5f1-4ee2-b6cc-b0491cb2a593",
+    "ParentId": null,
+    "Text": "wmsoutinvoice",
+    "Url": "/wmsoutinvoice"
+    }
+,{
+    "Id": "e7354ad9-4cd6-4a91-b352-01dbeb79c0ae",
+    "ParentId": null,
+    "Text": "wmsoutinvoicedtl",
+    "Url": "/wmsoutinvoicedtl"
+    }
+,{
+    "Id": "e663f049-0de4-475a-bccb-08773278cb52",
+    "ParentId": null,
+    "Text": "wmsoutinvoicedtlhis",
+    "Url": "/wmsoutinvoicedtlhis"
+    }
+,{
+    "Id": "da054b0a-cdf6-4446-a417-332c21dcc0ab",
+    "ParentId": null,
+    "Text": "wmsoutinvoicehis",
+    "Url": "/wmsoutinvoicehis"
+    }
+,{
+    "Id": "952969c0-8c40-4fda-a327-d5e05c0aa9b1",
+    "ParentId": null,
+    "Text": "wmsoutinvoicerecord",
+    "Url": "/wmsoutinvoicerecord"
+    }
+,{
+    "Id": "a1d2b7a9-b491-47ec-b00f-98901b5828aa",
+    "ParentId": null,
+    "Text": "wmsoutinvoicerecordhis",
+    "Url": "/wmsoutinvoicerecordhis"
+    }
+,{
+    "Id": "29158739-6bbc-44c6-b0f3-2a5a080700d1",
+    "ParentId": null,
+    "Text": "wmsoutinvoiceuniicode",
+    "Url": "/wmsoutinvoiceuniicode"
+    }
+,{
+    "Id": "431b66bb-fb8f-445e-8306-5e601d1d1080",
+    "ParentId": null,
+    "Text": "wmsoutinvoiceuniicodehis",
+    "Url": "/wmsoutinvoiceuniicodehis"
+    }
+,{
+    "Id": "617dbbc7-6ea0-4367-a1df-5b5c49c2a861",
+    "ParentId": null,
+    "Text": "wmsoutwave",
+    "Url": "/wmsoutwave"
+    }
+,{
+    "Id": "b8f1ea5b-46f2-48fd-986c-c264e21af129",
+    "ParentId": null,
+    "Text": "wmsoutwavehis",
+    "Url": "/wmsoutwavehis"
+    }
+,{
+    "Id": "4111ad3d-dd04-4dcd-9127-0056234a1735",
+    "ParentId": null,
+    "Text": "wmsputaway",
+    "Url": "/wmsputaway"
+    }
+,{
+    "Id": "523b9d0a-841d-48a2-8fd0-b21dbe57edaa",
+    "ParentId": null,
+    "Text": "wmsputawayhis",
+    "Url": "/wmsputawayhis"
+    }
+,{
+    "Id": "a6113864-0735-4294-a2c9-f36b7c409bcf",
+    "ParentId": null,
+    "Text": "wmsputawaydtl",
+    "Url": "/wmsputawaydtl"
+    }
+,{
+    "Id": "364162f6-c334-4aca-af2c-894ede18afca",
+    "ParentId": null,
+    "Text": "wmsputdowndtlhis",
+    "Url": "/wmsputawaydtlhis"
+    }
+,{
+    "Id": "58d78cc2-f40c-43b8-974a-8077539a03e5",
+    "ParentId": null,
+    "Text": "wmsputdown",
+    "Url": "/wmsputdown"
+    }
+,{
+    "Id": "d878667f-00cb-4e52-b5d4-27ad5fd7d5b4",
+    "ParentId": null,
+    "Text": "wmsputdownhis",
+    "Url": "/wmsputdownhis"
+    }
+,{
+    "Id": "93b1108a-e5c2-4858-b014-e5eeec250391",
+    "ParentId": null,
+    "Text": "wmsputdowndtl",
+    "Url": "/wmsputdowndtl"
+    }
+,{
+    "Id": "4e1b3164-5d89-4581-914d-0fed156ce305",
+    "ParentId": null,
+    "Text": "wmsputdowndtlhis",
+    "Url": "/wmsputdowndtlhis"
+    }
+,{
+    "Id": "3719e2e8-b793-4012-b3d7-3879e2676504",
+    "ParentId": null,
+    "Text": "wmsstock",
+    "Url": "/wmsstock"
+    }
+,{
+    "Id": "bbe536d9-10fb-4cd4-aa5d-cccb9c11a054",
+    "ParentId": null,
+    "Text": "wmsstockhis",
+    "Url": "/wmsstockhis"
+    }
+,{
+    "Id": "c33f47ba-6fae-4921-96e7-82ca1413a177",
+    "ParentId": null,
+    "Text": "wmsstockadjust",
+    "Url": "/wmsstockadjust"
+    }
+,{
+    "Id": "4b37c1ae-ef3d-4f2b-9048-3afcd57e6962",
+    "ParentId": null,
+    "Text": "wmsstockdtl",
+    "Url": "/wmsstockdtl"
+    }
+,{
+    "Id": "1b2245d5-129c-4822-92b5-e04f5cbaa726",
+    "ParentId": null,
+    "Text": "wmsstockdtlhis",
+    "Url": "/wmsstockdtlhis"
+    }
+,{
+    "Id": "1d320c8f-b985-48f4-9454-0682c3817d2c",
+    "ParentId": null,
+    "Text": "wmsstockreconcileresult",
+    "Url": "/wmsstockreconcileresult"
+    }
+,{
+    "Id": "ea60daf9-68a6-4bd4-be6c-2dbad502c518",
+    "ParentId": null,
+    "Text": "wmsstockreconcileresulthis",
+    "Url": "/wmsstockreconcileresulthis"
+    }
+,{
+    "Id": "cfef10bc-877b-47dc-b6e5-44b06cc2a2a4",
+    "ParentId": null,
+    "Text": "wmsstockuniicode",
+    "Url": "/wmsstockuniicode"
+    }
+,{
+    "Id": "7af87dfa-bc33-453c-a155-ce288dbf64d0",
+    "ParentId": null,
+    "Text": "wmsstockuniicodehis",
+    "Url": "/wmsstockuniicodehis"
+    }
+,{
+    "Id": "fb67ed7e-86b2-46f0-bec5-f6ac1a79f397",
+    "ParentId": null,
+    "Text": "wmstask",
+    "Url": "/wmstask"
+    }
+,{
+    "Id": "e4b2a01a-82a2-4ce7-8cfb-1fdc5a72edf6",
+    "ParentId": null,
+    "Text": "wmstaskhis",
+    "Url": "/wmstaskhis"
+    }
+,{
+    "Id": "d3118c3c-5021-48c3-b789-de5ee25c1940",
+    "ParentId": null,
+    "Text": "cfgbusiness",
+    "Url": "/cfgbusiness"
+    }
+,{
+    "Id": "a7dc966e-aa13-476b-bfac-d7ecb9b97190",
+    "ParentId": null,
+    "Text": "cfgbusinessmodule",
+    "Url": "/cfgbusinessmodule"
+    }
+,{
+    "Id": "7a46dd65-8b5e-426c-bdb6-7a56185b23a4",
+    "ParentId": null,
+    "Text": "cfgbusinessparam",
+    "Url": "/cfgbusinessparam"
+    }
+,{
+    "Id": "0b6c1351-4616-44af-82ff-d47da40d2912",
+    "ParentId": null,
+    "Text": "cfgbusinessparamvalue",
+    "Url": "/cfgbusinessparamvalue"
+    }
+,{
+    "Id": "b042bede-95a2-45e9-a984-37c91c90bf8c",
+    "ParentId": null,
+    "Text": "cfgdocloc",
+    "Url": "/cfgdocloc"
+    }
+,{
+    "Id": "28fc1016-40ee-4d02-8b15-83049e2def44",
+    "ParentId": null,
+    "Text": "cfgdoctype",
+    "Url": "/cfgdoctype"
+    }
+,{
+    "Id": "0a3092e1-6942-4ee0-b9a5-744b768c6a42",
+    "ParentId": null,
+    "Text": "cfgdoctypedtl",
+    "Url": "/cfgdoctypedtl"
+    }
+,{
+    "Id": "0d413061-ea7e-47bb-9a8d-eea6060e7f35",
+    "ParentId": null,
+    "Text": "cfgrelationship",
+    "Url": "/cfgrelationship"
+    }
+,{
+    "Id": "44eed4a3-cc79-422e-801f-c661dde08335",
+    "ParentId": null,
+    "Text": "cfgrelationshiptype",
+    "Url": "/cfgrelationshiptype"
+    }
+,{
+    "Id": "0bc2a0fd-c6eb-4bcf-b9e4-1e97331ac129",
+    "ParentId": null,
+    "Text": "cfgstrategy",
+    "Url": "/cfgstrategy"
+    }
+,{
+    "Id": "286570f0-94fd-43f3-b6cb-c9e0d01622d2",
+    "ParentId": null,
+    "Text": "cfgstrategydtl",
+    "Url": "/cfgstrategydtl"
+    }
+,{
+    "Id": "702184bd-f36a-461f-958e-35b383ad1e3f",
+    "ParentId": null,
+    "Text": "cfgstrategyitem",
+    "Url": "/cfgstrategyitem"
+    }
+,{
+    "Id": "f4a23f62-2434-46dc-8579-9784e59d3064",
+    "ParentId": null,
+    "Text": "cfgstrategytype",
+    "Url": "/cfgstrategytype"
+    }
+,{
+    "Id": "998a4360-32c4-4bae-9695-86158475802c",
+    "ParentId": null,
+    "Text": "cfgerpwhouse",
+    "Url": "/cfgerpwhouse"
+    }
+,{
+    "Id": "06b31e5c-cdbe-4792-aca4-b096cecd80f8",
+    "ParentId": null,
+    "Text": "syssequence",
+    "Url": "/syssequence"
+    }
+,{
+    "Id": "117430a7-a8f1-4207-bea9-0fa59321a454",
+    "ParentId": null,
+    "Text": "sysdictionary",
+    "Url": "/sysdictionary"
+    }
+,{
+    "Id": "c2dbdde7-9dcc-45aa-a2fb-5d5e2abcab86",
+    "ParentId": null,
+    "Text": "sysparameter",
+    "Url": "/sysparameter"
+    }
+,{
+    "Id": "ef215b46-3ed3-4287-a1d2-7c3a5f0ebc27",
+    "ParentId": null,
+    "Text": "sysparametervalue",
+    "Url": "/sysparametervalue"
+    }
+,{
+    "Id": "afbd2ef1-4626-482b-9e36-a81de2932cb3",
+    "ParentId": null,
+    "Text": "interfaceconfig",
+    "Url": "/interfaceconfig"
+    }
+,{
+    "Id": "0172816d-d250-471d-b715-9e25dacf4b3d",
+    "ParentId": null,
+    "Text": "interfacesendback",
+    "Url": "/interfacesendback"
+    }
+,{
+    "Id": "50e92989-8c78-4384-9137-ac1a798009f1",
+    "ParentId": null,
+    "Text": "interfacesendbackhis",
+    "Url": "/interfacesendbackhis"
+    }
+,{
+    "Id": "422cb362-9f04-487f-a43f-3e88c29f2219",
+    "ParentId": null,
+    "Text": "电子邮件",
+    "Url": "/sysemail"
+    }
+,{
+    "Id": "90d7cfe2-3adc-41e3-b56a-bc79fbdebc65",
+    "ParentId": null,
+    "Text": "整线监控",
+    "Url": "/sysmapmonitor"
+    }
+,{
+    "Id": "b2011bc1-cca3-461e-8c5e-1a6db54e4136",
+    "ParentId": null,
+    "Text": "设备状态",
+    "Url": "/motdevparts"
+    }
+,{
+    "Id": "e8854939-c158-485e-8d52-243ef558174c",
+    "ParentId": null,
+    "Text": "设备状态历史",
+    "Url": "/motdevpartshis"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

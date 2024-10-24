@@ -1,0 +1,15 @@
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\bin\Debug\net6.0\ASRS.WCS.PLC.deps.json
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\bin\Debug\net6.0\ASRS.WCS.PLC.dll
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\bin\Debug\net6.0\ASRS.WCS.PLC.pdb
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\bin\Debug\net6.0\ASRS.WCS.Common.dll
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\bin\Debug\net6.0\ASRS.WCS.Common.pdb
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ASRS.WCS.PLC.csproj.AssemblyReference.cache
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ASRS.WCS.PLC.GeneratedMSBuildEditorConfig.editorconfig
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ASRS.WCS.PLC.AssemblyInfoInputs.cache
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ASRS.WCS.PLC.AssemblyInfo.cs
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ASRS.WCS.PLC.csproj.CoreCompileInputs.cache
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ASRS.WCS.FE97765C.Up2Date
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ASRS.WCS.PLC.dll
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\refint\ASRS.WCS.PLC.dll
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ASRS.WCS.PLC.pdb
+D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\obj\Debug\net6.0\ref\ASRS.WCS.PLC.dll

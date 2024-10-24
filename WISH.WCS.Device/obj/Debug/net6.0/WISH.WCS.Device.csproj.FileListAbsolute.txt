@@ -1,0 +1,17 @@
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\bin\Debug\net6.0\WISH.WCS.Device.deps.json
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\bin\Debug\net6.0\WISH.WCS.Device.dll
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\bin\Debug\net6.0\WISH.WCS.Device.pdb
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\bin\Debug\net6.0\ASRS.WCS.Common.dll
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\bin\Debug\net6.0\ASRS.WCS.PLC.dll
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\bin\Debug\net6.0\ASRS.WCS.PLC.pdb
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\bin\Debug\net6.0\ASRS.WCS.Common.pdb
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\WISH.WCS.Device.csproj.AssemblyReference.cache
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\WISH.WCS.Device.GeneratedMSBuildEditorConfig.editorconfig
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\WISH.WCS.Device.AssemblyInfoInputs.cache
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\WISH.WCS.Device.AssemblyInfo.cs
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\WISH.WCS.Device.csproj.CoreCompileInputs.cache
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\WISH.WCS.9797379C.Up2Date
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\WISH.WCS.Device.dll
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\refint\WISH.WCS.Device.dll
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\WISH.WCS.Device.pdb
+D:\layman\project\njlm_-wmcs\WISH.WCS.Device\obj\Debug\net6.0\ref\WISH.WCS.Device.dll

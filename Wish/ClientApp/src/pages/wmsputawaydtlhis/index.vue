@@ -1,0 +1,149 @@
+﻿<template>
+    <card>
+        <wtm-search-box :ref="searchRefName" :events="searchEvent" :formOptions="SEARCH_DATA" :needCollapse="true" :isActive.sync="isActive" />
+        <!-- 操作按钮 -->
+        <wtm-but-box :assembly="assembly" :action-list="actionList" :selected-data="selectData" :events="actionEvent" />
+        <!-- 列表 -->
+        <wtm-table-box :attrs="{...searchAttrs, actionList}" :events="{...searchEvent, ...actionEvent}">
+
+        </wtm-table-box>
+        <!-- 弹出框 -->
+        <dialog-form :is-show.sync="dialogIsShow" :dialog-data="dialogData" :status="dialogStatus" @onSearch="onHoldSearch" />
+        <!-- 导入 -->
+        <upload-box :is-show.sync="uploadIsShow" @onImport="onImport" @onDownload="onDownload" />
+    </card>
+</template>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+import { Action, State } from "vuex-class";
+import searchMixin from "@/vue-custom/mixin/search";
+import actionMixin from "@/vue-custom/mixin/action-mixin";
+import DialogForm from "./views/dialog-form.vue";
+import store from "./store/index";
+// 查询参数, table列 ★★★★★
+import { ASSEMBLIES, TABLE_HEADER,  } from "./config";
+import i18n from "@/lang";
+
+@Component({
+    name: "wmsputawaydtlhis",
+    mixins: [searchMixin(TABLE_HEADER), actionMixin(ASSEMBLIES)],
+    store,
+    components: {
+        DialogForm
+    }
+})
+export default class Index extends Vue {
+    isActive: boolean = false;
+
+    get SEARCH_DATA() {
+        return {
+            formProps: {
+                "label-width": "75px",
+                inline: true
+            },
+            formItem: {
+                "areaNo":{
+                    label: "areaNo",
+                    rules: [],
+                    type: "input"
+              },
+                "binNo":{
+                    label: "binNo",
+                    rules: [],
+                    type: "input"
+              },
+                "docTypeCode":{
+                    label: "docTypeCode",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "erpWhouseNo":{
+                    label: "erpWhouseNo",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "materialCode":{
+                    label: "物料编码",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "materialSpec":{
+                    label: "物料规格",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "palletBarcode":{
+                    label: "载体条码",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "projectNo":{
+                    label: "项目号",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "proprietorCode":{
+                    label: "proprietorCode",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "putawayDtlStatus":{
+                    label: "状态",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "putawayNo":{
+                    label: "putawayNo",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "roadwayNo":{
+                    label: "巷道",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "stockCode":{
+                    label: "stockCode",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "stockDtlId":{
+                    label: "stockDtlId",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "supplierCode":{
+                    label: "supplierCode",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+                "unitCode":{
+                    label: "unitCode",
+                    rules: [],
+                    type: "input"
+                    ,isHidden: !this.isActive
+              },
+
+            }
+        };
+    }
+
+     mounted() {
+
+    }
+}
+</script>

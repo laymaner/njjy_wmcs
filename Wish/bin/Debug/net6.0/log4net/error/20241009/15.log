@@ -1,0 +1,281 @@
+
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:05:26,354",     "description": "System.ArgumentException: An item with the same key has already been added. Key: database
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at WalkingTec.Mvvm.Core.Support.FileHandlers.WtmFileProvider.Init(Configs config, GlobalData gd)
+   at WalkingTec.Mvvm.Core.IServiceExtension.AddWtmContextForConsole(IServiceCollection services, String jsonFileDir, String jsonFileName, Func`2 fileSubDirSelector)
+   at Wish.Service.DCService.InitDC() in D:\layman\project\njlm_-wmcs\Wish.ViewModel\Services\DCService.cs:line 52",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:48:00,242",     "description": "System.ArgumentException: An item with the same key has already been added. Key: database
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at WalkingTec.Mvvm.Core.Support.FileHandlers.WtmFileProvider.Init(Configs config, GlobalData gd)
+   at WalkingTec.Mvvm.Core.IServiceExtension.AddWtmContextForConsole(IServiceCollection services, String jsonFileDir, String jsonFileName, Func`2 fileSubDirSelector)
+   at Wish.Service.DCService.InitDC() in D:\layman\project\njlm_-wmcs\Wish.ViewModel\Services\DCService.cs:line 52",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:49:54,450",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:49:54,450",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:50:15,550",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:50:15,550",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:51:19,168",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:51:19,263",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:51:47,530",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:51:47,543",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:52:08,589",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:52:08,589",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:52:29,687",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:52:29,687",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:52:50,772",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:52:50,773",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:53:11,832",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:53:11,832",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:53:32,909",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:53:32,910",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:53:53,954",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:53:53,960",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:54:15,012",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:54:15,019",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:54:36,157",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:54:36,157",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:54:57,282",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:54:57,283",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:55:18,383",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:55:18,383",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:55:39,446",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:55:39,456",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:56:00,541",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:56:00,541",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:56:21,631",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:56:21,632",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:56:42,707",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:56:42,708",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:57:03,821",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:57:03,822",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:57:24,903",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:57:24,903",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:57:46,011",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:57:46,012",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:58:07,145",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:58:07,146",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:58:28,234",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:58:28,236",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:58:49,326",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:58:49,327",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:59:10,388",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:59:10,389",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:59:31,482",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:59:31,482",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:59:52,569",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2001
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2024-10-09 15:59:52,570",     "description": "System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.3.10:2000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at ASRS.WCS.PLC.Sockets.PlcDevice() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 160
+   at ASRS.WCS.PLC.Sockets.<Start>b__70_0() in D:\layman\project\njlm_-wmcs\ASRS.WCS.Plc\Sockets.cs:line 273",   "level": "ERROR",     "info": "" }
